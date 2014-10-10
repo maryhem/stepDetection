@@ -1,0 +1,12 @@
+# Misc params
+snr: 1.0    # Initial signal to noise ratio.
+phi: 1   # Initial threshold.
+sigStep: 1000   # How many thresholds to consider.
+minStep: 3  # How many frames minimum for a level.
+
+# Trace rejection params
+Ptime: 0.9  # Initial signal to ratio.
+bleachLT: 10    # Photobleaching lifetime (s).
+minNFF: 1   # How many thresholds to consider.
+stepMax: 3  # Max # of average step sizes for single step.
+minSNR: 0.85    # Min SNR before trace rejection.
